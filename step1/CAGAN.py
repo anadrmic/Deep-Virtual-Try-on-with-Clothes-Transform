@@ -6,7 +6,7 @@
 
 from keras.models import Sequential, Model
 from keras.layers import *
-from keras.layers import LeakyReLU
+from keras.layers.advanced_activations import LeakyReLU
 from keras.activations import relu
 from keras.initializers import RandomNormal
 
